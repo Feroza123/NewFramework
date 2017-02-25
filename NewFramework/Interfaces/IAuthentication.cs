@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NewFramework
+namespace NewFramework.Interfaces
 {
-    public class Class1
+    public interface IAuthentication
     {
+        string GetAuthHeader();
     }
 }
